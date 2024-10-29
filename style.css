@@ -23,7 +23,7 @@ nav ul{
 
 nav li{
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
 
@@ -42,6 +42,43 @@ nav a{
 }
 
 nav a:hover{
+    color: orange;
+    border-bottom: 2px solid transparent;
+}
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+footer ul::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+footer a:hover{
     color: orange;
     border-bottom: 2px solid transparent;
 }
