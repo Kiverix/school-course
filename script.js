@@ -1,4 +1,2 @@
-let test="toto"
-let test2 = 2
-
-console.log(test + test2)
+let h1 = document.getElementById("title")
+console.log(h1)
