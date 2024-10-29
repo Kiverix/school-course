@@ -5,3 +5,7 @@ function myfunction(){
 let tab = [1, 2, 3, 4, 5]
 
 let tab2 = ["toto", "tata", "tutu", "titi"]
+
+tab2.forEach((element) => {
+    console.log(element)
+})
