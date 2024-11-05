@@ -18,3 +18,14 @@ if(temp>20){
 } else{
     null
 }
+
+//c'est cheesy mais j'ai la flemme de fair mieux
+//shit
+
+if(temp<10){
+    console.log("Temp Fbl")
+} else if(temp>=10 && temp<20){
+    console.log("Temp Nrml")
+} else{
+    console.log("Temp hte")
+}

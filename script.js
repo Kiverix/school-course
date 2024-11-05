@@ -32,7 +32,7 @@ console.log("test", "toto");
 // "===" checks the type of data
 // "const currentclss = currentplyer === j1 ? j1 : j2;" is like a one-line "if" function
 
-@keyframes gradient {
+/*@keyframes gradient {
     from {
       background-position: 0%;
     }
@@ -62,4 +62,4 @@ console.log("test", "toto");
     animation: gradient 10s linear infinite;
     animation-direction: alternate;
     background-size: 1500% 100%;
-  }
+  }*/
