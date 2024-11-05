@@ -1,11 +1,10 @@
-function myfunction(){
-    alert("alert")
-}
+let i = 0;
+console.log("toto");
 
-let tab = [1, 2, 3, 4, 5]
+let x = 0;
+let y = 2;
+let str = "marc";
+console.log(y+str);
+console.log(x+y);
 
-let tab2 = ["toto", "tata", "tutu", "titi"]
-
-tab2.forEach((element) => {
-    console.log(element)
-})
+const exemple = document.getElementById("board");
