@@ -1,6 +1,6 @@
-/*let temp = document.getElementById("temp")
-let btn = document.getElementById("post")
-let temps = []
+//let temp = document.getElementById("temp")
+//let btn = document.getElementById("post")
+//let temps = []
 
 btn.addEventListener('click', function(){
     temp.value
@@ -13,7 +13,7 @@ btn.addEventListener('click', function(){
     }
 });
 
-/*function handleClick(){
+function handleClick(){
     temp.value
     if(temp<10){
         alert("Temp Fbl")
@@ -24,7 +24,7 @@ btn.addEventListener('click', function(){
     }
 }
 
-/*if(temp<10){
+if(temp<10){
     console.log("Température faible")
 } else{
     null
@@ -40,24 +40,24 @@ if(temp>20){
     console.log("Température Haute")
 } else{
     null
-}*/
+}
 
 //c'est cheesy mais j'ai la flemme de fair mieux
 //shit
 
-/*if(temp<10){
+if(temp<10){
     console.log("Temp Fbl")
 } else if(temp>=10 && temp<20){
     console.log("Temp Nrml")
 } else{
     console.log("Temp hte")
-}*/
+}
 
-let temp = document.getElementById('temp')
-let btn = document.getElementById('post')
-let temps = []
+//let temp = document.getElementById('temp')
+//let btn = document.getElementById('post')
+//let temps = []
 
-btn.addEventListener('click', handleClick)
+//btn.addEventListener('click', handleClick)
 
 function handleClick() {
     if(temp.value<10){
@@ -76,3 +76,11 @@ function handleClick() {
 btn.addEventListener('click', () => {
     // Traitement
 })*/
+
+let temp = document.getElementById('temp')
+let btn = document.getElementById('post')
+let tabtemp = []
+
+function handleClick(){
+    tabtemp.push
+}
