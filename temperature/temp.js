@@ -1,10 +1,19 @@
-let temp = document.getElementById("temp")
+/*let temp = document.getElementById("temp")
 let btn = document.getElementById("post")
 let temps = []
 
-btn.addEventListener("click", handleClick)
+btn.addEventListener('click', function(){
+    temp.value
+    if(temp<10){
+        alert("Temp Fbl")
+    } else if(temp>=10 && temp<20){
+        alert("Temp Nrml")
+    } else {
+        alert("Temp Hte")
+    }
+});
 
-function handleClick(){
+/*function handleClick(){
     temp.value
     if(temp<10){
         alert("Temp Fbl")
@@ -43,3 +52,27 @@ if(temp>20){
 } else{
     console.log("Temp hte")
 }*/
+
+let temp = document.getElementById('temp')
+let btn = document.getElementById('post')
+let temps = []
+
+btn.addEventListener('click', handleClick)
+
+function handleClick() {
+    if(temp.value<10){
+        alert("Temp Fbl")
+    } else if(temp.value>=10 && temp.value<20){
+        alert("Temp Nrml")
+    } else {
+        alert("Temp Hte")
+    }
+}
+
+/*btn.addEventListener('click', function() {
+
+})
+
+btn.addEventListener('click', () => {
+    // Traitement
+})*/
